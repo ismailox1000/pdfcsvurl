@@ -13,3 +13,4 @@ chromadb
 pypdf
 tiktoken
 tabulate
+bs4
