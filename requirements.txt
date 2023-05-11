@@ -13,4 +13,3 @@ chromadb
 pypdf
 tiktoken
 tabulate
-fake_useragents
