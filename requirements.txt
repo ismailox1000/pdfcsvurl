@@ -1,0 +1,16 @@
+openai
+streamlit
+langchain
+pathlib
+streamlit_chat
+unstructured
+pdf2image
+pytesseract
+cython
+matplotlib
+numpy
+chromadb
+pypdf
+tiktoken
+tabulate
+fake_useragents
