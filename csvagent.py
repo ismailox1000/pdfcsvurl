@@ -125,17 +125,7 @@ if options=='Work with CSV Files':
         #loader = CSVLoader(file_path=os.path.join(directory_path1, csv_file_uploaded.name))
         agent = create_csv_agent(OpenAI(temperature=0), path=file_path, verbose=True)
 
-        # Create an index using the loaded documents
-        """index_creator = VectorstoreIndexCreator()
-        docsearch = index_creator.from_loaders([loader])
-
-        # Create a question-answering chain using the index
-        chain = RetrievalQA.from_chain_type(llm=OpenAI(openai_api_key=OPENAI_API_KEY), chain_type="stuff", retriever=docsearch.vectorstore.as_retriever(), input_key="question")
-"""
-
-
-
-
+        
         #Creating the chatbot interface
         st.title("Chat with your CSV Data")
 
